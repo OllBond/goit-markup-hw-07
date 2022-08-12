@@ -1,0 +1,33 @@
+.social-link-our-team-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    .social-link-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    color: var(--bgc-social-icons);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color var(--timing-duration) var(--timing-function),
+        color var(--timing-duration) var(--timing-function);
+    
+    &:hover,
+    &:focus {
+    background-color: var(--accent-text-color);
+    color: var(--background-color);
+            }
+}
+
+.icons-links-team {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+}
+
+
