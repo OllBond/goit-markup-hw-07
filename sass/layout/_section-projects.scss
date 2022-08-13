@@ -4,7 +4,7 @@
     gap: 30px;
 }
 
-.our-projects-text {
+.our-projects-list__text {
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 16px;
@@ -16,7 +16,7 @@
     width: 370px;
 }
 
-.our-progects-pictures-wrapper {
+.our-projects-list__wrapper {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 24px;
@@ -26,12 +26,23 @@
     border-top: none;
 }
 
+
+.our-projects-list__title {
+    margin-bottom: 4px;
+
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
 .our-projects-overlay {
     position: relative;
     overflow: hidden;
 }
 
-.our-projects-thumb-text {
+.our-projects-overlay__text {
     position: absolute;
     top: 0;
     left: 0;
