@@ -3,12 +3,12 @@
     gap: 30px;
 }
 
-.our-benefits-item {
+.our-benefits-list__item {
     flex-basis: calc((100% - 90px) / 3);
     width: 270px;
 }
 
-.our-benefits-icons {
+.our-benefits-list__icons-wrapper {
     display: flex;
     width: 270px;
     height: 120px;
@@ -19,12 +19,12 @@
     margin-bottom: 30px;
 }
 
-.icons-benefits {
+.our-benefits-list__icon {
     width: 70px;
     height: 70px;
 }
 
-.section-title {
+.our-benefits-list__title {
     padding-top: 0px;
     margin-bottom: 10px;
 
@@ -35,7 +35,7 @@
     text-transform: uppercase;
 }
 
-.our-benefits-text {
+.our-benefits-list__text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;

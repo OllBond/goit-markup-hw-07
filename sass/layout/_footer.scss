@@ -15,7 +15,7 @@
     margin-top: 20px;
 }
 
-.location-footer-item:not(:last-child) {
+.our-contacts-footer-list__item:not(:last-child) {
     margin-bottom: 9px;
 }
 
@@ -27,7 +27,7 @@
     text-decoration: none;
 }
 
-.footer-link {
+.our-contacts-footer-list__link {
     transition: color var(--timing-duration) var(--timing-function);
     color: var(--color-tel-email);
     font-style: normal;
@@ -55,7 +55,7 @@
     margin-bottom: 20px;
 }
 
-.social-link-team-footer {
+.social-link-list__link_color_footer {
     background-color: rgba(255, 255, 255, 0.1);
     transition: background-color var(--timing-duration) var(--timing-function);
 
@@ -64,6 +64,6 @@
     }
 }
 
-.join-social-links {
+.social-link-footer {
     margin-right: auto;
 }

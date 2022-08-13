@@ -12,7 +12,7 @@
     letter-spacing: 0.03em;
 }
 
-.our-progects-pictures-item {
+.our-projects-list__item {
     width: 370px;
 }
 
@@ -48,13 +48,13 @@
     color: var(--background-color);
     background-color: rgba(33, 150, 243, 0.9);
 
-    .our-projects-link:hover &,
-    .our-projects-link:focus & {
+    .our-projects-list__link:hover &,
+    .our-projects-list__link:focus & {
             transform: translateY(0);
         }
 }
 
-.our-projects-link {
+.our-projects-list__link {
     display: block;
 
     &:hover,

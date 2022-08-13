@@ -2,12 +2,12 @@
     padding-top: 0px;
 }
 
-.our-work-list {
+.section-our-work-list {
     display: flex;
     gap: 30px;
 }
 
-.our-work-pictures-item {
+.section-our-work-list__item {
     position: relative;
 
     flex-basis: calc((100% - 60px) / 3);
@@ -15,7 +15,7 @@
     height: 294px;
 }
 
-.our-work-text {
+.section-our-work-list__text {
     position: absolute;
     bottom: 0;
     width: 370px;

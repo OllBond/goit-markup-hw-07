@@ -14,7 +14,7 @@
     display: flex;
     gap: 12px;
    
-    .input-footer {
+    .footer-form-wrap__input {
     padding-left: 16px;
     font-weight: 400;
     font-size: 16px;
@@ -64,10 +64,8 @@
     background-color: var(--button-order-hover);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-.icon-btn-form-footer {
+.btn-form-footer__icon {
     width: 24px;
     height: 24px;
 }
 }
-
-

@@ -44,8 +44,8 @@
     border-radius: 50%;
     cursor: pointer;
 
-    &:hover>.icon-close,
-    &:focus>.icon-close {
+    &:hover>.button-close__icon,
+    &:focus>.button-close__icon {
     fill: var(--accent-text-color);
 }
 }

@@ -7,13 +7,14 @@
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+}
 
-    .logo-web-word {
+    .logo-header-link__web-word {
     color: var(--accent-text-color);
 }
-    .logo-studio-word {
+
+    .logo-header-link__studio-word {
     color: var(--color-logo);
-}
 }
 
 .logo-footer-link {
@@ -24,11 +25,11 @@
     text-decoration: none;
     margin-bottom: 20px;
 
-    .logo-web-word-footer {
+    .logo-footer-link__web-word {
     color: var(--accent-text-color);
 }
 
-    .logo-studio-footer {
+    .logo-footer-link__studio-word {
     color: var(--background-color);
 }
 }

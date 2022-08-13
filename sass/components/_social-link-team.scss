@@ -1,9 +1,9 @@
-.social-link-our-team-list {
+.social-link-list {
     display: flex;
     justify-content: center;
     gap: 10px;
 
-    .social-link-team {
+    .social-link-list__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,12 +22,11 @@
             }
 }
 
-.icons-links-team {
+.social-link-list__icon {
     width: 20px;
     height: 20px;
     fill: currentColor;
 }
-
 }
 
 
