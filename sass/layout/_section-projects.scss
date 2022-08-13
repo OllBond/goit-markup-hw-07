@@ -6,9 +6,9 @@
 
 .our-projects-list__text {
     color: var(--primary-text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.87;
+
+    @include font (16px,400,1.87);
+
     letter-spacing: 0.03em;
 }
 
@@ -31,9 +31,8 @@
     margin-bottom: 4px;
 
     color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
+    
+    @include font (18px,700,2);
     letter-spacing: 0.06em;
 }
 

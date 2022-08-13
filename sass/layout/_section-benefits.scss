@@ -9,11 +9,11 @@
 }
 
 .our-benefits-list__icons-wrapper {
-    display: flex;
+    @extend %align;
+    
     width: 270px;
     height: 120px;
-    justify-content: center;
-    align-items: center;
+    
     background-color: var(--background-color-btn);
     border-radius: 4px;
     margin-bottom: 30px;
@@ -36,8 +36,7 @@
 }
 
 .our-benefits-list__text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+    @include font (14px,400,1.71);
+        
     letter-spacing: 0.03em;
 }

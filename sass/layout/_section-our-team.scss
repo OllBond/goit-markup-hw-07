@@ -6,10 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
+    @include font (16px,400,1.18);
 }
 
 .section-team-list__item {

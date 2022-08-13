@@ -30,6 +30,12 @@
   overflow: hidden;
 }
 
+.section-our-work-list__text, .our-benefits-list__icons-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   background-color: var(--background-color);
   color: var(--primary-text-color);
@@ -638,11 +644,8 @@ button {
 }
 
 .our-benefits-list__icons-wrapper {
-  display: flex;
   width: 270px;
   height: 120px;
-  justify-content: center;
-  align-items: center;
   background-color: var(--background-color-btn);
   border-radius: 4px;
   margin-bottom: 30px;
@@ -664,8 +667,8 @@ button {
 }
 
 .our-benefits-list__text {
-  font-weight: 400;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -691,9 +694,6 @@ button {
   bottom: 0;
   width: 370px;
   height: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8));
   font-weight: 700;
   line-height: 1.14;
@@ -710,8 +710,8 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.18;
 }
 
@@ -784,8 +784,8 @@ button {
 
 .our-projects-list__text {
   color: var(--primary-text-color);
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
@@ -807,8 +807,8 @@ button {
 .our-projects-list__title {
   margin-bottom: 4px;
   color: var(--title-text-color);
-  font-weight: 700;
   font-size: 18px;
+  font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
 }
